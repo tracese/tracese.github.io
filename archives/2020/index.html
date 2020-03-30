@@ -850,17 +850,26 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
+
     
+        <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+        <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+        <script type="text/javascript" src="/js/fireworks.js"></script>
     
+
+    <!-- 背景雪花飘落特效-->
     
         <script type="text/javascript">
-        //只在桌面版网页启用特效
-        var windowWidth = $(window).width();
-        if (windowWidth > 768) {
-            document.write('<script type="text/javascript" src="/js/sakura.js"></script>');
-        }
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+            }
         </script>
     
+
+    
+    
+   
 
 
     
@@ -890,6 +899,7 @@ $(function () {
         zIndex="-1" count="99"
         src="/libs/background/canvas-nest.js"></script>
     
+
 
     
 
