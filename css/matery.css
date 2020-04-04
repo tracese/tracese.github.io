@@ -1,31 +1,36 @@
 /*全局基础样式*/
+
+
 /*小屏幕下(手机类)的样式*/
+
 @media only screen and (max-width: 601px) {
     .container {
         width: 95%;
     }
 }
 
+
 /*中等屏幕下(平板类)的样式*/
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
     }
 }
 
+
 /*大屏幕下(桌面类)的样式*/
+
 @media only screen and (min-width: 993px) {
     .container {
         width: 90%;
         max-width: 1125px;
     }
-
     .head-container {
         position: absolute;
         padding: 0px 30px;
         width: 100%;
     }
-
     .post-container {
         width: 90%;
         margin: 0 auto;
@@ -38,7 +43,7 @@ body {
     margin: 0;
     color: #34495e;
     /* cursor: url(https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur),auto; */
-    cursor: url(https://lc-0OwJ6sYh.cn-e1.lcfile.com/0123382c12a7d16870a7/default.cur),auto;
+    cursor: url(https://lc-0OwJ6sYh.cn-e1.lcfile.com/0123382c12a7d16870a7/default.cur), auto;
 }
 
 h1 {
@@ -311,7 +316,9 @@ header .brand-logo .logo-span {
     font-size: 2rem;
 }
 
+
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
+
 header .brand-logo .waves-effect {
     vertical-align: top;
 }
@@ -401,9 +408,7 @@ header .side-nav .social-link {
 .cover-btns a:hover {
     border: 1px solid #f44336;
     background-color: #f44336;
-    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
-            0 4px 23px 0 rgba(0, 0, 0, 0.12),
-            0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
 }
 
 .cover-btns a i {
@@ -428,14 +433,12 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-
     50% {
         opacity: 1;
         -ms-filter: none;
         filter: none;
         top: -16px;
     }
-
     100% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -451,14 +454,12 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-
     50% {
         opacity: 1;
         -ms-filter: none;
         filter: none;
         top: -16px;
     }
-
     100% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -474,14 +475,12 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-
     50% {
         opacity: 1;
         -ms-filter: none;
         filter: none;
         top: -16px;
     }
-
     100% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -497,14 +496,12 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-
     50% {
         opacity: 1;
         -ms-filter: none;
         filter: none;
         top: -16px;
     }
-
     100% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -541,7 +538,9 @@ header .go-back i {
     line-height: 56px;
 }
 
+
 /* 背景图效果. */
+
 .bg-cover {
     position: relative;
     display: flex;
@@ -607,7 +606,6 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -615,35 +613,30 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
     }
-
     16% {
         background: rgba(132, 13, 121, 0.75);
         background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
     }
-
     32% {
         background: rgba(239, 83, 80, 0.75);
         background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
     }
-
     48% {
         background: rgba(255, 87, 34, 0.75);
         background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
     }
-
     64% {
         background: rgba(255, 160, 0, 0.75);
         background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
     }
-
     80% {
         background: rgba(233, 30, 99, 0.75);
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
@@ -653,7 +646,6 @@ header .go-back i {
 }
 
 @keyframes rainbow {
-
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -661,35 +653,30 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
     }
-
     16% {
         background: rgba(132, 13, 121, 0.75);
         background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
     }
-
     32% {
         background: rgba(239, 83, 80, 0.75);
         background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
     }
-
     48% {
         background: rgba(255, 87, 34, 0.75);
         background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
     }
-
     64% {
         background: rgba(255, 160, 0, 0.75);
         background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
     }
-
     80% {
         background: rgba(233, 30, 99, 0.75);
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
@@ -758,7 +745,9 @@ header .go-back i {
     }
 }
 
+
 /*中等屏幕下(平板类)的样式*/
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .index-card .card .card-content {
         padding: 20px 20px;
@@ -874,7 +863,9 @@ header .go-back i {
     margin-top: -10px;
 }
 
+
 /*文章列表卡片各样式*/
+
 #articles {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1013,12 +1004,16 @@ article .article-tags .chip {
     color: #999 !important;
 }
 
+
 /*文章详情样式*/
+
 #artDetail {
     margin-top: -60px;
 }
 
+
 /* 修改小屏幕下文章详情table样式. */
+
 @media only screen and (max-width: 550px) {
     #articleContent table {
         table-layout: fixed;
@@ -1033,9 +1028,7 @@ article .article-tags .chip {
 }
 
 #artDetail .card {
-    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
-        0 5px 15px rgba(0, 0, 0, .07),
-        0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
 }
 
 #artDetail .tag-cate {
@@ -1140,7 +1133,6 @@ article .article-tags .chip {
     #artDetail .article-card-content {
         padding: 0 30px 20px 32px;
     }
-
     #artDetail .article-info {
         padding: 15px 20px 0 28px;
         margin-bottom: -5px;
@@ -1331,7 +1323,9 @@ thead {
     color: #fff;
 }
 
+
 /* archive page. */
+
 #cd-timeline .year {
     position: relative;
     width: 80px;
@@ -1397,17 +1391,14 @@ thead {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
     #cd-timeline::before {
         left: 50%;
         margin-left: -2px;
     }
-
     #cd-timeline .year {
         margin: 10px 0 50px -40px;
         padding: 22px 11px;
     }
-
     #cd-timeline .month {
         margin: 10px 0 30px -30px;
         padding: 14px 16px;
@@ -1437,11 +1428,9 @@ thead {
     .cd-timeline-block {
         margin: 1em 0;
     }
-
     .cd-timeline-block:first-child {
         margin-top: 0;
     }
-
     .cd-timeline-block:last-child {
         margin-bottom: 0;
     }
@@ -1467,11 +1456,9 @@ thead {
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
-
     .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden;
     }
-
     .cssanimations .cd-timeline-img.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-1 0.6s;
@@ -1516,11 +1503,9 @@ thead {
     .cd-timeline-content h2 {
         font-size: 1.25rem;
     }
-
     .cd-timeline-content p {
         font-size: 1rem;
     }
-
     .cd-timeline-content .cd-read-more,
     .cd-timeline-content .cd-date {
         font-size: 0.875rem;
@@ -1532,37 +1517,29 @@ thead {
         margin-left: 0;
         padding: 0;
         width: 45%;
-
     }
-
     .cd-timeline-content::before {
         top: 24px;
         left: 100%;
     }
-
     .cd-timeline-content .cd-read-more {
         float: left;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
         top: 24px;
         left: auto;
         right: 100%;
         border-color: #ffa726;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
         float: right;
     }
-
     .cssanimations .cd-timeline-content.is-hidden {
         visibility: hidden;
     }
-
     .cssanimations .cd-timeline-content.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-2 0.6s;
@@ -1570,6 +1547,7 @@ thead {
         animation: cd-bounce-2 0.6s;
     }
 }
+
 
 /* about page styles. */
 
@@ -1824,7 +1802,9 @@ thead {
     cursor: pointer;
 }
 
+
 /*尾部样式*/
+
 footer {
     padding-bottom: 1px;
 }
@@ -1842,7 +1822,9 @@ footer .copy-right {
     color: #dbdbdb;
 }
 
+
 /*搜索层样式*/
+
 #searchIcon {
     font-size: 1.2rem;
 }
@@ -1887,7 +1869,9 @@ footer .copy-right {
     white-space: pre-wrap;
 }
 
+
 /*回到顶部按钮样式*/
+
 .top-scroll {
     display: none;
     position: fixed;
@@ -1931,7 +1915,6 @@ footer .copy-right {
         float: left;
         width: 100%;
     }
-
     .custom-card {
         padding: 0 2px !important;
     }
@@ -1973,7 +1956,9 @@ footer .copy-right {
     overflow: hidden;
 }
 
+
 /* styles for '...' */
+
 .block-with-text {
     /* hide text if it more than N lines  */
     overflow: hidden;
@@ -1990,7 +1975,9 @@ footer .copy-right {
     padding-right: 1em;
 }
 
+
 /* create the ... style */
+
 .block-with-text:before {
     /* points in the end */
     content: '...';
@@ -2001,7 +1988,9 @@ footer .copy-right {
     bottom: 0;
 }
 
+
 /* hide ... if we have text, which is less than or equal to max lines */
+
 .block-with-text:after {
     /* points in the end */
     content: '';
@@ -2018,10 +2007,10 @@ footer .copy-right {
     background: white;
 }
 
+
 /*二级菜单*/
 
-.nav-menu {
-}
+.nav-menu {}
 
 .nav-menu li .sub-nav {
     position: absolute;
@@ -2120,13 +2109,13 @@ footer .copy-right {
 }
 
 .m-nav-show,
-.m-nav-item > a:hover {
+.m-nav-item>a:hover {
     color: #FFF;
     background: rgba(255, 255, 255, .8);
 }
 
-.m-nav-show > a:before,
-.m-nav-item > a:hover:before {
+.m-nav-show>a:before,
+.m-nav-item>a:hover:before {
     opacity: 1;
 }
 
@@ -2138,4 +2127,170 @@ footer .copy-right {
     margin: 0px;
 }
 
-.deng-box { position: fixed; top: 20px; z-index: 999; } .deng-box1 { position: fixed; top: 20px; right: 10px; z-index: 999; } .deng-box1 .deng { position: relative; width: 120px; height: 90px; margin: 50px; background: #d8000f; background: rgba(216, 0, 15, 0.8); border-radius: 50% 50%; -webkit-transform-origin: 50% -100px; -webkit-animation: swing 5s infinite ease-in-out; box-shadow: -5px 5px 30px 4px rgba(252, 144, 61, 1); } .deng { position: relative; width: 120px; height: 90px; margin: 50px; background: #d8000f; background: rgba(216, 0, 15, 0.8); border-radius: 50% 50%; -webkit-transform-origin: 50% -100px; -webkit-animation: swing 3s infinite ease-in-out; box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1); } .deng-a { width: 100px; height: 90px; background: #d8000f; background: rgba(216, 0, 15, 0.1); margin: 12px 8px 8px 8px; border-radius: 50% 50%; border: 2px solid #dc8f03; } .deng-b { width: 45px; height: 90px; background: #d8000f; background: rgba(216, 0, 15, 0.1); margin: -4px 8px 8px 26px; border-radius: 50% 50%; border: 2px solid #dc8f03; } .xian { position: absolute; top: -65px; left: 60px; width: 2px; height: 65px; background: #dc8f03; } .shui-a { position: relative; width: 5px; height: 20px; margin: -5px 0 0 59px; -webkit-animation: swing 4s infinite ease-in-out; -webkit-transform-origin: 50% -45px; background: #ffa500; border-radius: 0 0 5px 5px; } .shui-b { position: absolute; top: 14px; left: -2px; width: 10px; height: 10px; background: #dc8f03; border-radius: 50%; } .shui-c { position: absolute; top: 18px; left: -2px; width: 10px; height: 35px; background: #ffa500; border-radius: 0 0 0 5px; } .deng:before { position: absolute; top: -7px; left: 29px; height: 12px; width: 60px; content: " "; display: block; z-index: 999; border-radius: 5px 5px 0 0; border: solid 1px #dc8f03; background: #ffa500; background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03); } .deng:after { position: absolute; bottom: -7px; left: 10px; height: 12px; width: 60px; content: " "; display: block; margin-left: 20px; border-radius: 0 0 5px 5px; border: solid 1px #dc8f03; background: #ffa500; background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03); } .deng-t { font-family: 华文行楷,Arial,Lucida Grande,Tahoma,sans-serif; font-size: 1rem; color: #dc8f03; font-weight: bold; line-height: 85px; text-align: center; } .night .deng-t, .night .deng-box, .night .deng-box1 { background: transparent !important; } @-moz-keyframes swing { 0% { -moz-transform: rotate(-10deg) } 50% { -moz-transform: rotate(10deg) } 100% { -moz-transform: rotate(-10deg) } } @-webkit-keyframes swing { 0% { -webkit-transform: rotate(-10deg) } 50% { -webkit-transform: rotate(10deg) } 100% { -webkit-transform: rotate(-10deg) } }
+.deng-box {
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+}
+
+.deng-box1 {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 999;
+}
+
+.deng-box1 .deng {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin: 50px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.8);
+    border-radius: 50% 50%;
+    -webkit-transform-origin: 50% -100px;
+    -webkit-animation: swing 5s infinite ease-in-out;
+    box-shadow: -5px 5px 30px 4px rgba(252, 144, 61, 1);
+}
+
+.deng {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin: 50px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.8);
+    border-radius: 50% 50%;
+    -webkit-transform-origin: 50% -100px;
+    -webkit-animation: swing 3s infinite ease-in-out;
+    box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1);
+}
+
+.deng-a {
+    width: 100px;
+    height: 90px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.1);
+    margin: 12px 8px 8px 8px;
+    border-radius: 50% 50%;
+    border: 2px solid #dc8f03;
+}
+
+.deng-b {
+    width: 45px;
+    height: 90px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.1);
+    margin: -4px 8px 8px 26px;
+    border-radius: 50% 50%;
+    border: 2px solid #dc8f03;
+}
+
+.xian {
+    position: absolute;
+    top: -65px;
+    left: 60px;
+    width: 2px;
+    height: 65px;
+    background: #dc8f03;
+}
+
+.shui-a {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    margin: -5px 0 0 59px;
+    -webkit-animation: swing 4s infinite ease-in-out;
+    -webkit-transform-origin: 50% -45px;
+    background: #ffa500;
+    border-radius: 0 0 5px 5px;
+}
+
+.shui-b {
+    position: absolute;
+    top: 14px;
+    left: -2px;
+    width: 10px;
+    height: 10px;
+    background: #dc8f03;
+    border-radius: 50%;
+}
+
+.shui-c {
+    position: absolute;
+    top: 18px;
+    left: -2px;
+    width: 10px;
+    height: 35px;
+    background: #ffa500;
+    border-radius: 0 0 0 5px;
+}
+
+.deng:before {
+    position: absolute;
+    top: -7px;
+    left: 29px;
+    height: 12px;
+    width: 60px;
+    content: " ";
+    display: block;
+    z-index: 999;
+    border-radius: 5px 5px 0 0;
+    border: solid 1px #dc8f03;
+    background: #ffa500;
+    background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+
+.deng:after {
+    position: absolute;
+    bottom: -7px;
+    left: 10px;
+    height: 12px;
+    width: 60px;
+    content: " ";
+    display: block;
+    margin-left: 20px;
+    border-radius: 0 0 5px 5px;
+    border: solid 1px #dc8f03;
+    background: #ffa500;
+    background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+
+.deng-t {
+    font-family: 华文行楷, Arial, Lucida Grande, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: #dc8f03;
+    font-weight: bold;
+    line-height: 85px;
+    text-align: center;
+}
+
+.night .deng-t,
+.night .deng-box,
+.night .deng-box1 {
+    background: transparent !important;
+}
+
+@-moz-keyframes swing {
+    0% {
+        -moz-transform: rotate(-10deg)
+    }
+    50% {
+        -moz-transform: rotate(10deg)
+    }
+    100% {
+        -moz-transform: rotate(-10deg)
+    }
+}
+
+@-webkit-keyframes swing {
+    0% {
+        -webkit-transform: rotate(-10deg)
+    }
+    50% {
+        -webkit-transform: rotate(10deg)
+    }
+    100% {
+        -webkit-transform: rotate(-10deg)
+    }
+}
